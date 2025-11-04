@@ -7,6 +7,8 @@ A more detailed list of changes is available in the corresponding milestones for
 #### On the OpenType profile
   - **[opentype/monospace]**: Ensure check works with monospace OTF fonts (PR #5051)
 
+  - **[opentype/STAT/ital_axis]**: Skip check for fonts without STAT table (issue #4998)
+
 ## 1.1.0 (2025-Oct-02)
   - Replace deprecated `pkg_resources` by `importlib.resources` (issue #5028)
 

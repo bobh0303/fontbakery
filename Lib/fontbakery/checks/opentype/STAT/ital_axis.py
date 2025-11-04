@@ -22,7 +22,7 @@ def get_STAT_axis_value(ttFont, tag):
 
 def check_has_ital(font):
     if "STAT" not in font.ttFont:
-        yield FAIL, Message(
+        yield SKIP, Message(
             "no-stat",
             f"Font {font.file} has no STAT table",
         )
